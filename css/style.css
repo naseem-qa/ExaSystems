@@ -27,16 +27,16 @@ input:hover{
 }
 
 footer{
-    margin-top: 80%;
+    margin-top: 126%;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: .5rem;
-    position: fixed;
+    position: relative;
     z-index: 99;
     background-color:rgba(173, 216, 230, 0.637) ;
-
+    /* border: solid; */
 }
 
 
