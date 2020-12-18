@@ -1,19 +1,23 @@
-header{
-    position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    background-color: #efefef;
+
+body{
+  /* background-color: #f6e0a2; */
+  background: lightblue url("https://s2.best-wallpaper.net/wallpaper/2560x1920/1908/Colorful-colors-watercolors-abstract-picture_2560x1920.jpg") no-repeat fixed center;
+
 
 }
 
 .new{
-    margin-bottom: 1.5em;
+    opacity: .7;
+    margin-bottom: 5%;
 }
 
-#new2{
-    margin-bottom: 1.5em;
+#flex{
+margin-left: 4%;
+margin-right: 4%;
+}
+
+input:hover{
+        opacity: 0.5;
 }
 
 .new3{
@@ -21,19 +25,17 @@ header{
     justify-content: space-around;
 }
 
-.fo{
-    margin-left: 5%;
-    margin-right:5%;
-    margin-top:3vmax;
-}
-
 footer{
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 1rem;
-    background-color: #efefef;
+    padding: .5rem;
     position: fixed;
     z-index: 99;
+    background-color:rgba(173, 216, 230, 0.637) ;
+
 }
+
+
+  
