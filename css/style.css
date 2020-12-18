@@ -14,9 +14,12 @@ header{
     justify-content: space-around;
 }
 
+.fo{
+    margin: 1%;
+}
 
 footer{
-    padding-top: 1.5vmax;
+    /* padding-top: 1.5vmax; */
     background-color: rgb(105, 162, 200);
     position: absolute;
     right: 0;
