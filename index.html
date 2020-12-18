@@ -4,38 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title> Web Responsive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Custom styles -->
+    <style>
+      body{
+        background-color: #f6e0a2;
+      }
+      .icon-color {
+        background-color:#94536d !important;
+      }
+    </style>
 </head>
 <body>
-    <header>
-        <div>
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit">Search</button>
-              </form>
+<header class="new">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            
+            </ul>
+            <form class="d-flex input-group w-auto">
+              <input
+                type="search"
+                class="form-control"
+                placeholder=""
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-mdb-ripple-color="dark"
+              >
+                Search
+              </button>
+            </form>
           </div>
+        </div>
+      </nav>
+          
     </header>
+    <form class="fo">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Last name</label>
+            </div>
+          </div>
+        </div>
       
-    <form id="add">
-        <fieldset>
-            <label>Name </label>
-            <input type="text" name="First" required placeholder="First">
-            <input type="text" name="Last" required placeholder="Last">
-            <label>Email</label>
-            <input type="email" name="email" required>
-            <label>Phone</label>
-            <input type="number"  name="phone" required placeholder="###">
-            <input type="number"  name="phone" required placeholder="###" >
-            <input type="number"  name="phone" required placeholder="###">
-            <label >occupation</label>
-            <select >
-                <option value=""></option>
-                <option value="">Engineer</option>
-                <option value="">Software developer</option>
-                <option value="">Teacher</option>
-              </select>
-        </fieldset>
-    </form>
-    <footer> </footer>
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      
+        <!-- Number input -->
+        <div class="form-outline mb-4">
+          <input type="number" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">Phone</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" for="form6Example6">Phone</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" for="form6Example6">Phone</label>
+          </div>
+
+          <select class="form-select" aria-label="Default select example" id="new2">
+            <option value="" disabled selected hidden>Occupation</option>
+            <option value="1">Engineer</option>
+            <option value="2">Software engineer</option>
+            <option value="3">Teacher</option>
+          </select>
+      
+        <!-- Submit button -->
+        <!-- <button type="submit" class="btn btn-primary btn-block mb-4">Register</button> -->
+      </form>
+
+    <footer> 
+        <div class="new3">
+            <i class="fas fa-caret-left fa-3x" class="ico"></i>
+            <i class="fas fa-caret-right fa-3x" ></i>
+            <i class="fas fa-book-open fa-2x"></i>
+            <i class="fas fa-clone fa-2x"></i>  
+            <i class="fas fa-share-square fa-2x"></i>  
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
     <!-- <script src="js/app.js"></script> -->
 </body>
