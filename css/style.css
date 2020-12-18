@@ -1,0 +1,39 @@
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #efefef;
+
+}
+
+.new{
+    margin-bottom: 1.5em;
+}
+
+#new2{
+    margin-bottom: 1.5em;
+}
+
+.new3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fo{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:3vmax;
+}
+
+footer{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #efefef;
+    position: fixed;
+    z-index: 99;
+}
