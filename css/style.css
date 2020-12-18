@@ -1,9 +1,11 @@
 header{
     position: relative;
     width: 100%;
-    z-index: 99;
     top: 0;
     left: 0;
+    z-index: 99;
+    background-color: #efefef;
+
 }
 
 .new{
@@ -20,21 +22,18 @@ header{
 }
 
 .fo{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top:3vmax;
 }
 
 footer{
-    /* padding-top: 1.5vmax; */
-    background-color: rgb(105, 162, 200);
     right: 0;
     bottom: 0;
+    left: 0;
+    width: 100%;
     padding: 1rem;
     background-color: #efefef;
     position: fixed;
-    /* height: 6.6vmax; */
-    width: 100%;
     z-index: 99;
-    left: 0;
 }
