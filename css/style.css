@@ -1,43 +1,80 @@
-
 body{
-  /* background-color: #f6e0a2; 
-   background: lightblue url("https://s2.best-wallpaper.net/wallpaper/2560x1920/1908/Colorful-colors-watercolors-abstract-picture_2560x1920.jpg") no-repeat fixed center; */
-   background: url('bbb.jpg');
-   background: lightblue url("bbb.jpg") no-repeat fixed center; 
+    background: lightblue url("https://cdn.hipwallpaper.com/i/90/18/AKQdjD.jpg") no-repeat fixed center;
+    /* background: url('bbbb.jpg');
+   background: lightblue url("bbbb.jpg") no-repeat fixed center;  */
+}
+
+.bb:hover{
+    background-color:#0d6efd;
+    border: white;
+}
+
+.bb{
+    border:solid #0d6efd;
+    color: #0d6efd;
+    border-radius: 10%;
+}
+
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: pink-100;
+    -webkit-box-shadow: 0 9px 7px -7px rgb(243, 172, 245);
+	   -moz-box-shadow: 0 9px 7px -7px rgb(243, 172, 245);
+	        box-shadow: 0 9px 7px -7px rgb(243, 172, 245);
+}
+
+@media only screen and (min-width: 768px) {
+   
+    .fodi{
+        /* border: solid; */
+        margin-top: 1%;
+        padding-left: 36%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    .phone{
+        width:65%;
+    }
+
+   
   }
 
-.new{
-    opacity: .7;
+  @media only screen and (max-width: 320px) {
+
+    header{
+        width: 100%;
+        left: 0;
+        right: 0;
+        
+    }
+  .fodi{
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 8%;
+  }
+}
+
+
+input:hover{
+    opacity: 0.5;
+}
+
+.bo{
+    /* border-radius: 50%; */
+    /* width: 5%; */
     margin-bottom: 5%;
 }
 
-#flex{
-margin-left: 4%;
-margin-right: 4%;
-height: auto;
-}
-
-input:hover{
-        opacity: 0.5;
-}
-
-.new3{
-    display: flex;
-    justify-content: space-around;
-}
-
-footer{
-    margin-top: 126%;
+/* footer{
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: .5rem;
-    position: relative;
-    z-index: 99;
     background-color:rgba(173, 216, 230, 0.637) ;
-    /* border: solid; */
-}
-
-
-  
+    border: solid;
+    display: flex;
+} */
