@@ -5,13 +5,14 @@ body{
 }
 
 .bb:hover{
-    background-color:#0d6efd;
+    background-color:#e0b2ce;
     border: white;
+    color: #0d6efd;
 }
 
 .bb{
-    border:solid #0d6efd;
-    color: #0d6efd;
+    border:solid #eba5e5;
+    color:#e0b2ce;
     border-radius: 10%;
 }
 
@@ -39,7 +40,17 @@ header{
         width:65%;
     }
 
-   
+    .bb:hover{
+        background-color:#e0b2ce;
+        border: white;
+        color: #0d6efd;
+    }
+    
+    .bb{
+        border:solid #eba5e5;
+        color:#e0b2ce;
+        border-radius: 10%;
+    }
   }
 
   @media only screen and (max-width: 320px) {
@@ -55,6 +66,17 @@ header{
       margin-left: 10%;
       margin-right: 10%;
   }
+  .bb:hover{
+    background-color:#e0b2ce;
+    border: white;
+    color: #0d6efd;
+}
+
+.bb{
+    border:solid #eba5e5;
+    color:#e0b2ce;
+    border-radius: 10%;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -70,6 +92,17 @@ header{
       margin-left: 10%;
       margin-right: 10%;
   }
+  .bb:hover{
+    background-color:#e0b2ce;
+    border: white;
+    color: #0d6efd;
+}
+
+.bb{
+    border:solid #eba5e5;
+    color:#e0b2ce;
+    border-radius: 10%;
+}
 }
 
 @media only screen and (max-width: 425px) {
@@ -85,6 +118,17 @@ header{
       margin-left: 10%;
       margin-right: 10%;
   }
+  .bb:hover{
+    background-color:#e0b2ce;
+    border: white;
+    color: #0d6efd;
+}
+
+.bb{
+    border:solid #eba5e5;
+    color:#e0b2ce;
+    border-radius: 10%;
+}
 }
 
 
